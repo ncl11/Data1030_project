@@ -8,7 +8,7 @@ For this project we use the “2005-2010 Graduation Outcomes - School Level" dat
 **Data:** https://data.cityofnewyork.us/Education/2005-2010-Graduation-Outcomes-School-Level/vh2h-md7a  
 
 ### Selections from EDA and model_building Notebooks
-Below are a few selections from EDA, a chart of performances of each model tested and some plots relating to the performance of our best model.  The true vs pred plot and feature permutation plot are based off a SVM model with hyperparameters: kernel='rbf', gamma~0.00012 and C=128. 
+Below are a few selections from EDA, a chart of performances of each model tested and some plots relating to the performance of our best model.  The true vs pred plot and feature permutation plot are based off a SVM model with hyperparameters: kernel='rbf', gamma=0.0001220703125 and C=128.  
 <img src="Figures/gradperc.png" width="400">
 <img src="Figures/LinePlot.png" width="400">
 <img src="Figures/regentsvsy.png" width="400">
