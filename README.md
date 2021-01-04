@@ -1,4 +1,4 @@
-# Forecasting NYC Public Schools Graduation Rates
+# Forecasting NYC Public School Graduation Rates
 ### Project Overview
 For this project we use the “2005-2010 Graduation Outcomes - School Level" dataset from NYC OpenData to build a model which predicts graduation outcomes for each subsequent year.  This model could be very useful for resource allocation purposes for the city.  In the src directory there are four notebooks- "data_cleaning_&_preprocessing", "EDA", "model_training & splitting" and "grad % project_master".  For a detailed report on the project and breakdown of the notebooks please see the report folder.  
 
