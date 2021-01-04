@@ -15,7 +15,7 @@ The target variable has a mean of ~ 60.99 and standard deviation of ~ 22.39
 ###  
 <img src="Figures/LinePlot.png" width="600">  
 
->  The target variable is non-stationary with mean steadily increasing for each borough for each year with the exception of Staten Island(2003-2004), Manhattan(2001-2002) and Brooklyn(2004-2005).  
+The target variable is non-stationary with mean steadily increasing for each borough for each year with the exception of Staten Island(2003-2004), Manhattan(2001-2002) and Brooklyn(2004-2005).  
 
 <img src="Figures/regentsvsy.png" width="600">  
 
@@ -31,7 +31,7 @@ Above the performance of all models can be seen.  The best model was SVM on the 
 
 <img src="Figures/truevpred.png" width="600">  
 
-The performance of this model is fairly strong, however it seems to frequently slightly underpredict likely due to the fact that, as mentioned above, there is a steady increase in the target variable for each year.  
+The performance of this model is fairly strong, however it seems to frequently slightly underpredict, likely due to the fact that, as mentioned above, there is a steady increase in the target variable for each year.  
 
 <img src="Figures/svr_feature_perm.png" width="600">  
 
