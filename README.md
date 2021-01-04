@@ -15,11 +15,15 @@ The target variable has a mean of ~ 60.99 and standard deviation of ~ 22.39
 ###  
 <img src="Figures/LinePlot.png" width="600">  
 
-The target variable is non-stationary with mean steadily increasing for each borough for each year with the exception of Staten Island(2003-2004), Manhattan(2001-2002) and Brooklyn(2004-2005).  
+>  The target variable is non-stationary with mean steadily increasing for each borough for each year with the exception of Staten Island(2003-2004), Manhattan(2001-2002) and Brooklyn(2004-2005).  
 
 <img src="Figures/regentsvsy.png" width="600">  
 
 One of the most predictive variables was the percent of students who passed the Regents Standardized Exam for the previous year.  The correlation was .79.  
+
+<img src="Figures/corr-heatmap.png" width="800">  
+
+The heatmap shows the correlations between all variables in the model.  The strongest positive correlations were the percent of graduates and the percent who passed the regents.  The strongest negative correlations were the percent of students still enrolled and dropout percent.  
 
 <img src="Figures/modeldf.png" width="600">  
 
