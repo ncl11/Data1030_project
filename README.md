@@ -8,10 +8,27 @@ For this project we use the “2005-2010 Graduation Outcomes - School Level" dat
 **Data:** https://data.cityofnewyork.us/Education/2005-2010-Graduation-Outcomes-School-Level/vh2h-md7a  
 
 ### Selections from EDA and model_building Notebooks
-Below are a few selections from EDA, a chart of performances of each model tested and some plots relating to the performance of our best model.  The true vs pred plot and feature permutation plot are based off a SVM model with hyperparameters: kernel='rbf', gamma=0.0001220703125 and C=128.  
-<img src="Figures/gradperc.png" width="400">
-<img src="Figures/LinePlot.png" width="400">
-<img src="Figures/regentsvsy.png" width="400">
-<img src="Figures/modeldf.png" width="400">
-<img src="Figures/truevpred.png" width="400">
-<img src="Figures/svr_feature_perm.png" width="400">
+Below are a few selections from EDA, a chart of performances of each model tested and some plots relating to the performance of our best model.  
+<img src="Figures/gradperc.png" width="600">  
+###  
+The target variable has a mean of ~ 60.99 and standard deviation of ~ 22.39  
+###  
+<img src="Figures/LinePlot.png" width="600">  
+
+The target variable is non-stationary with mean steadily increasing for each borough for each year with the exception of Staten Island(2003-2004), Manhattan(2001-2002) and Brooklyn(2004-2005).  
+
+<img src="Figures/regentsvsy.png" width="600">  
+
+One of the most predictive variables was the percent of students who passed the Regents Standardized Exam for the previous year.  The correlation was .79.  
+
+<img src="Figures/modeldf.png" width="600">  
+
+Above the performance of all models can be seen.  The best model was SVM on the test data for 2005 with hyperparameters: kernel='rbf', gamma=0.0001220703125 and C=128  
+
+<img src="Figures/truevpred.png" width="600">  
+
+The performance of this model is fairly strong, however it seems to frequently slightly underpredict likely due to the fact that, as mentioned above, there is a steady increase in the target variable for each year.  
+
+<img src="Figures/svr_feature_perm.png" width="600">  
+
+The percent of students who graduated in the previous year, percent of students who are still enrolled and the percent of students who passed the Regents exam were the first, second and third most significant variables respectively  
