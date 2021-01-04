@@ -23,7 +23,7 @@ One of the most predictive variables was the percent of students who passed the 
 
 <img src="Figures/corr-heatmap.png" width="800">  
 
-The heatmap shows the correlations between all variables in the model.  The strongest positive correlations with the graduation rate in year i+1 were the percent of graduates in year i and the percent who passed the regents in year i.  The strongest negative correlations with graduation rate for year i+1 were the percent of students still enrolled after year i and dropout percent for year i.  
+The heatmap shows the correlations between all variables in the model.  The strongest positive correlations with the graduation rate in year i+1 were the percent who graduated in year i and the percent who passed the regents in year i.  The strongest negative correlations with graduation rate for year i+1 were the percent of students still enrolled after year i and dropout percent for year i.  
 
 <img src="Figures/modeldf.png" width="600">  
 
